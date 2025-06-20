@@ -1,0 +1,23 @@
+{
+  "name": "arq-hexagonal",
+  "version": "1.0.0",
+  "description": "Fundamentos Arquitectura",
+  "license": "ISC",
+  "author": "DHYONTOP",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node ./src/prestamos/infrastructure/bootstrap/App.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@nestjs/common": "^11.1.3",
+    "@nestjs/core": "^11.1.3",
+    "reflect-metadata": "^0.2.2",
+    "tsyringe": "^4.10.0"
+  }
+}

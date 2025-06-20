@@ -1,0 +1,10 @@
+node_modules
+package-lock.json
+request.input.trace.json
+coverage/
+.scannerwork/
+.sonarlint/
+test-report.xml
+!test/resources/*.pdf
+invoice.pdf
+output.log

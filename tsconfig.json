@@ -1,0 +1,45 @@
+  {
+    "compilerOptions": {
+      "skipLibCheck": true,
+      // Habilita todas las verificaciones estrictas
+      "strict": false,
+      // Detecta variables y parámetros no inicializados
+      "strictNullChecks": true,
+      // Muestra errores cuando intentas utilizar una expresión de tipo any implícito
+      "noImplicitAny": false,
+      // Requiere que las funciones tengan todas las propiedades de retorno con un tipo definido
+      "noImplicitReturns": false,
+      // Detecta errores cuando intentas acceder a una variable o parámetro no definido
+      "noUncheckedIndexedAccess": true,
+      // Asegura que las propiedades solo pueden ser accedidas si están definidas
+      "noImplicitThis": true,
+      // Evita el uso de cualquier tipo implícito en la declaración de funciones
+      "alwaysStrict": true,
+      // Mostrar errores en imports que no se utilizan
+      "noUnusedLocals": false,
+      // Mostrar errores en variables que no se utilizan
+      "noUnusedParameters": false,
+      // Asegura que las funciones async tengan una correcta gestión de las promesas
+      "strictBindCallApply": true,
+      "strictFunctionTypes": true, // Verifica la compatibilidad de tipos de funciones
+      "strictPropertyInitialization": true, // Verifica que las propiedades de las clases estén inicializadas correctamente
+      "preserveConstEnums": true,
+      "sourceMap": true,
+      "allowJs": true,
+      "outDir": ".build",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "lib": [
+        "es2017"
+      ],
+      "rootDir": "./",
+      "target": "es6",
+      "removeComments": true,
+      "esModuleInterop": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true
+    },
+    "exclude": [
+      "node_modules"
+    ]
+  }
